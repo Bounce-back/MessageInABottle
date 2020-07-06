@@ -23,7 +23,7 @@ public class PlayerFishListener implements Listener{
 		if(event.getState().equals(PlayerFishEvent.State.CAUGHT_ENTITY)||
 				event.getState().equals(PlayerFishEvent.State.CAUGHT_FISH)) {
 			Random rand=new Random();
-			if(rand.nextInt(100)<1000) {
+			if(rand.nextInt(100)<1) {
 				final MessageInABottle instance=MessageInABottle.getInstance();
 				
 				int index=rand.nextInt(instance.getBottledBooksTitles().size());
