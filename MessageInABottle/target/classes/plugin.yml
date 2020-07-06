@@ -1,0 +1,5 @@
+name: MessageInABottle
+main: io.github.bounceback.messageinabottle.MessageInABottle
+version: 0.1
+author: me
+Description: stop throwing an error
